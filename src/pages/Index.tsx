@@ -157,17 +157,18 @@ export default function Index() {
                     
                     <p className="mb-3">Купил новый велик! 🚴‍♂️🔥</p>
                     
-                    <div className="bg-gray-100 rounded-lg aspect-[4/3] mb-3 overflow-hidden">
+                    <div className="bg-gray-100 rounded-lg aspect-[4/3] max-w-md mb-2 overflow-hidden">
                       <img 
                         src="https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?w=600&h=400&fit=crop" 
                         alt="Велосипед" 
                         className="w-full h-full object-cover"
                       />
                     </div>
+                    <p className="text-sm text-gray-600 mb-1">возле дома</p>
 
                     <div className="flex items-center gap-2 text-xs text-gray-600 mb-3">
                       <Icon name="MapPin" size={14} />
-                      <span>Двор у моего дома</span>
+                      <span>ул. Ленина 42</span>
                     </div>
 
                     <div className="flex items-center gap-4 pt-3 border-t">
